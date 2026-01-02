@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Deployment & Publishing - Learning Hub</title>
+    <meta
+      name="description"
+      content="Learn how to publish and deploy mobile apps on Google Play Store and Apple App Store."
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- ==========================================
+         NAVIGATION BAR
+         ========================================== -->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-brand">
+            <span>📱</span>
+            <span>MAD Learning Hub</span>
+          </div>
+          <button class="menu-toggle">☰</button>
+          <ul class="navbar-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="platforms.html">Platforms</a></li>
+            <li><a href="app-types.html">App Types</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="lifecycle.html">Lifecycle</a></li>
+            <li><a href="ui-components.html">UI Components</a></li>
+            <li><a href="deployment.html" class="active">Deployment</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Mobile App Deployment & Publishing</h1>
+          <p class="hero-subtitle">
+            Learn how to publish your app on Google Play Store and Apple App Store
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         DEPLOYMENT OVERVIEW
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>What is App Deployment?</h2>
+          <p>Understanding the process of releasing your app to users</p>
+        </div>
+
+        <div class="content-row">
+          <div>
+            <h3>Definition</h3>
+            <p>
+              App deployment is the process of releasing your mobile application to users through
+              official app stores or direct distribution. It involves preparing the app, meeting
+              platform requirements, and making it available for download.
+            </p>
+            <h3 style="margin-top: var(--spacing-lg);">Pre-Deployment Checklist</h3>
+            <ul style="margin-left: var(--spacing-lg); color: var(--text-light);">
+              <li>✓ Complete testing and bug fixes</li>
+              <li>✓ Update app version number</li>
+              <li>✓ Create app icons (all sizes required)</li>
+              <li>✓ Prepare app screenshots</li>
+              <li>✓ Write app description and keywords</li>
+              <li>✓ Set up privacy policy</li>
+              <li>✓ Prepare promotional assets</li>
+              <li>✓ Review app store guidelines</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Distribution Channels</h3>
+            <p>There are multiple ways to distribute your mobile app:</p>
+            <div class="card">
+              <h4>Official App Stores</h4>
+              <p>
+                Publish on Google Play Store (Android) and Apple App Store (iOS) for maximum
+                reach.
+              </p>
+            </div>
+            <div class="card" style="margin-top: var(--spacing-md);">
+              <h4>Third-party Stores</h4>
+              <p>
+                Amazon Appstore, Samsung Galaxy Store, and other alternative Android stores.
+              </p>
+            </div>
+            <div class="card" style="margin-top: var(--spacing-md);">
+              <h4>Direct Distribution</h4>
+              <p>
+                Distribute APK directly or through your website (Android only).
+              </p>
+            </div>
+            <div class="card" style="margin-top: var(--spacing-md);">
+              <h4>Enterprise Distribution</h4>
+              <p>
+                Distribute to employees or organizations through enterprise programs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         GOOGLE PLAY STORE
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Publishing on Google Play Store</h2>
+          <p>Steps to publish your Android app</p>
+        </div>
+
+        <h3 style="text-align: center; margin-bottom: var(--spacing-xl);">Step-by-Step Process</h3>
+
+        <div class="cards-grid">
+          <div class="card">
+            <span class="card-icon">📋</span>
+            <h3>Step 1: Create Account</h3>
+            <p>
+              Create a Google Play Developer account. You'll need a Google account and to pay a
+              one-time registration fee ($25).
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🔑</span>
+            <h3>Step 2: Generate Signing Key</h3>
+            <p>
+              Create a signing key to sign your app for release. Keep this key safe as you'll need
+              it for future updates.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📦</span>
+            <h3>Step 3: Build Release APK</h3>
+            <p>
+              Build a signed release APK (Android Package) or AAB (Android App Bundle) from
+              Android Studio with your signing key.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📝</span>
+            <h3>Step 4: Prepare Store Listing</h3>
+            <p>
+              Fill in app details: title, short description, full description, screenshots,
+              category, content rating, and pricing.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🖼️</span>
+            <h3>Step 5: Upload Assets</h3>
+            <p>
+              Upload app icon (512x512 px), feature graphic (1024x500 px), screenshots (up to 8),
+              and promotional videos.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📤</span>
+            <h3>Step 6: Upload APK/AAB</h3>
+            <p>
+              Upload your release APK or AAB file to Google Play Console. You can test the app on
+              beta track first.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⚙️</span>
+            <h3>Step 7: Configure Settings</h3>
+            <p>
+              Set content rating, target audience, privacy policy link, and specify target Android
+              versions.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">✅</span>
+            <h3>Step 8: Review & Submit</h3>
+            <p>
+              Review all information carefully. Then submit for review. Google reviews your app
+              typically within 2-3 hours.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top: var(--spacing-xl); background-color: #f0f9ff; border-left: 4px solid var(--primary-color);">
+          <h3>Important Requirements</h3>
+          <p>
+            <strong>Minimum Android Version:</strong> Target API level 31 or higher<br />
+            <strong>App Size:</strong> APK typically under 100MB (AAB supports larger apps)<br />
+            <strong>Privacy Policy:</strong> Required if app collects user data<br />
+            <strong>Content Rating:</strong> Complete the content rating questionnaire<br />
+            <strong>Permissions:</strong> Clearly explain why your app needs each permission
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         APPLE APP STORE
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Publishing on Apple App Store</h2>
+          <p>Steps to publish your iOS app</p>
+        </div>
+
+        <h3 style="text-align: center; margin-bottom: var(--spacing-xl);">Step-by-Step Process</h3>
+
+        <div class="cards-grid">
+          <div class="card">
+            <span class="card-icon">💳</span>
+            <h3>Step 1: Apple Developer Account</h3>
+            <p>
+              Enroll in Apple Developer Program ($99/year). You'll need an Apple ID, legal name,
+              and payment method.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📱</span>
+            <h3>Step 2: Create App ID</h3>
+            <p>
+              Create a unique App ID in Apple Developer account that matches your app's bundle
+              identifier.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🔐</span>
+            <h3>Step 3: Generate Certificates</h3>
+            <p>
+              Create code signing certificates and provisioning profiles needed to sign your app
+              for release.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📦</span>
+            <h3>Step 4: Build Archive</h3>
+            <p>
+              Build an Archive from Xcode using your release configuration and signing
+              certificates.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📝</span>
+            <h3>Step 5: Create App Record</h3>
+            <p>
+              Go to App Store Connect and create a new app with your App ID, name, default
+              language, and bundle ID.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🖼️</span>
+            <h3>Step 6: Add App Screenshots</h3>
+            <p>
+              Add screenshots for iPhone and iPad (minimum 2, maximum 5 per screen size) and
+              upload a promotional image.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📝</span>
+            <h3>Step 7: Fill Store Information</h3>
+            <p>
+              Add app description, keywords, support URL, privacy policy, and other required
+              information.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⭐</span>
+            <h3>Step 8: Set Ratings & Pricing</h3>
+            <p>
+              Select your app's content rating category, set pricing for different countries, and
+              configure in-app purchases if needed.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📤</span>
+            <h3>Step 9: Upload Build</h3>
+            <p>
+              Use Xcode or Transporter to upload your Archive. TestFlight allows beta testing
+              before App Store release.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⚖️</span>
+            <h3>Step 10: Review & Submit</h3>
+            <p>
+              Review all information and submit for review. Apple reviews apps within 24-48 hours
+              but may take longer.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top: var(--spacing-xl); background-color: #f0f9ff; border-left: 4px solid var(--primary-color);">
+          <h3>Important Requirements</h3>
+          <p>
+            <strong>Minimum iOS Version:</strong> iOS 11.0 or higher (varies)<br />
+            <strong>App Icon:</strong> 1024x1024 px required<br />
+            <strong>Privacy Policy:</strong> Required if app collects user data<br />
+            <strong>Reviewer Guidelines:</strong> Strictly reviewed for compliance<br />
+            <strong>Testing:</strong> TestFlight available for internal and external testing<br />
+            <strong>Review Time:</strong> Usually 24-48 hours, can take longer
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         COMPARISON
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Google Play vs Apple App Store</h2>
+          <p>Comparing the two major app distribution platforms</p>
+        </div>
+
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Aspect</th>
+                <th>Google Play Store</th>
+                <th>Apple App Store</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Developer Account Fee</strong></td>
+                <td>$25 (one-time)</td>
+                <td>$99/year</td>
+              </tr>
+              <tr>
+                <td><strong>Review Time</strong></td>
+                <td>2-3 hours</td>
+                <td>24-48 hours</td>
+              </tr>
+              <tr>
+                <td><strong>Review Process</strong></td>
+                <td>Automated initially</td>
+                <td>Manual review by humans</td>
+              </tr>
+              <tr>
+                <td><strong>Rejection Rate</strong></td>
+                <td>Lower (~1%)</td>
+                <td>Higher (~30%)</td>
+              </tr>
+              <tr>
+                <td><strong>Appeal Process</strong></td>
+                <td>Can appeal rejections</td>
+                <td>Can appeal rejections</td>
+              </tr>
+              <tr>
+                <td><strong>Update Frequency</strong></td>
+                <td>Can update frequently</td>
+                <td>Strict review for updates</td>
+              </tr>
+              <tr>
+                <td><strong>Beta Testing</strong></td>
+                <td>Google Play Beta</td>
+                <td>TestFlight</td>
+              </tr>
+              <tr>
+                <td><strong>Revenue Share</strong></td>
+                <td>70% developer, 30% Google</td>
+                <td>70% developer, 30% Apple</td>
+              </tr>
+              <tr>
+                <td><strong>Market Share</strong></td>
+                <td>~70% of market</td>
+                <td>~27% of market</td>
+              </tr>
+              <tr>
+                <td><strong>Global Reach</strong></td>
+                <td>Most countries</td>
+                <td>Availability varies by country</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         POST-DEPLOYMENT
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>After Launch</h2>
+          <p>Managing your app post-deployment</p>
+        </div>
+
+        <div class="cards-grid-3">
+          <div class="card">
+            <span class="card-icon">📊</span>
+            <h3>Monitor Analytics</h3>
+            <p>
+              Track user behavior, crashes, and performance metrics. Use Google Analytics or
+              Firebase to understand users.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⭐</span>
+            <h3>Manage Reviews</h3>
+            <p>
+              Respond to user reviews and ratings. Positive responses to negative reviews build
+              credibility.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🐛</span>
+            <h3>Fix Bugs</h3>
+            <p>
+              Monitor crash reports and user feedback. Push updates quickly to fix critical issues
+              and maintain ratings.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🎯</span>
+            <h3>Optimize for Conversions</h3>
+            <p>
+              A/B test app store listings. Optimize screenshots, description, and keywords to
+              improve conversion rates.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🎁</span>
+            <h3>Plan New Features</h3>
+            <p>
+              Based on user feedback and analytics, plan and develop new features for future
+              updates.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🚀</span>
+            <h3>Promote Your App</h3>
+            <p>
+              Use social media, content marketing, and app store optimization (ASO) to increase
+              downloads.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>About</h4>
+            <p>
+              Mobile App Development Learning Hub is an educational resource for students
+              learning about mobile app development fundamentals.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="platforms.html">Platforms</a></li>
+              <li><a href="app-types.html">App Types</a></li>
+              <li><a href="tools.html">Tools</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="lifecycle.html">Development Lifecycle</a></li>
+              <li><a href="ui-components.html">UI Components</a></li>
+              <li><a href="deployment.html">Deployment Guide</a></li>
+              <li><a href="about.html">About This Project</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: info@madlearninghub.edu</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Location: Education & Technology Hub</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Mobile App Development Learning Hub. All rights reserved. | Designed for
+            Educational Purposes
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+         SCRIPTS
+         ========================================== -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>

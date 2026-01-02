@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Development Lifecycle - Learning Hub</title>
+    <meta
+      name="description"
+      content="Learn the complete mobile app development lifecycle from ideation to deployment and maintenance."
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- ==========================================
+         NAVIGATION BAR
+         ========================================== -->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-brand">
+            <span>📱</span>
+            <span>MAD Learning Hub</span>
+          </div>
+          <button class="menu-toggle">☰</button>
+          <ul class="navbar-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="platforms.html">Platforms</a></li>
+            <li><a href="app-types.html">App Types</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="lifecycle.html" class="active">Lifecycle</a></li>
+            <li><a href="ui-components.html">UI Components</a></li>
+            <li><a href="deployment.html">Deployment</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Mobile App Development Lifecycle</h1>
+          <p class="hero-subtitle">
+            From ideation to deployment and maintenance - the complete journey of app development
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         LIFECYCLE OVERVIEW
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Understanding the SDLC</h2>
+          <p>The Software Development Lifecycle in mobile app development</p>
+        </div>
+
+        <p style="text-align: center; margin-bottom: var(--spacing-xl); font-size: var(--font-size-lg);">
+          The mobile app development lifecycle consists of six main phases that ensure successful
+          app creation, deployment, and maintenance. Each phase has specific objectives and
+          deliverables.
+        </p>
+
+        <!-- Timeline -->
+        <div class="timeline">
+          <!-- Phase 1 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>1. Ideation & Planning</h3>
+              <p>
+                <strong>What:</strong> Conceptualize the app idea and define project scope, goals,
+                and requirements.
+              </p>
+              <p>
+                <strong>Activities:</strong>
+              </p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+                <li>Market research and competitor analysis</li>
+                <li>Define target audience</li>
+                <li>Create project requirements document</li>
+                <li>Establish project timeline and budget</li>
+                <li>Identify technical requirements</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">
+                <strong>Duration:</strong> 1-4 weeks
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 2 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>2. Design & Prototyping</h3>
+              <p>
+                <strong>What:</strong> Create wireframes, mockups, and prototypes of the app
+                interface.
+              </p>
+              <p>
+                <strong>Activities:</strong>
+              </p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+                <li>Create wireframes of all screens</li>
+                <li>Design visual mockups</li>
+                <li>Develop interactive prototypes</li>
+                <li>Get user feedback on design</li>
+                <li>Finalize design specifications</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">
+                <strong>Duration:</strong> 2-6 weeks
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 3 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>3. Development</h3>
+              <p>
+                <strong>What:</strong> Build the actual application using chosen tools and
+                languages.
+              </p>
+              <p>
+                <strong>Activities:</strong>
+              </p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+                <li>Set up development environment</li>
+                <li>Write code following best practices</li>
+                <li>Implement all features</li>
+                <li>Integrate backend services</li>
+                <li>Version control and collaboration</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">
+                <strong>Duration:</strong> 4-12 weeks (varies greatly)
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 4 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>4. Testing & QA</h3>
+              <p>
+                <strong>What:</strong> Thoroughly test the application for bugs, performance, and
+                security.
+              </p>
+              <p>
+                <strong>Activities:</strong>
+              </p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+                <li>Unit testing of individual components</li>
+                <li>Integration testing of modules</li>
+                <li>Performance and load testing</li>
+                <li>Security and penetration testing</li>
+                <li>User acceptance testing (UAT)</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">
+                <strong>Duration:</strong> 2-4 weeks
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 5 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>5. Deployment</h3>
+              <p>
+                <strong>What:</strong> Release the application to app stores and make it available
+                to users.
+              </p>
+              <p>
+                <strong>Activities:</strong>
+              </p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+                <li>Prepare app for submission</li>
+                <li>Create app store listings</li>
+                <li>Submit to Google Play and App Store</li>
+                <li>Handle review process</li>
+                <li>Plan marketing and launch strategy</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">
+                <strong>Duration:</strong> 1-2 weeks
+              </p>
+            </div>
+          </div>
+
+          <!-- Phase 6 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>6. Maintenance & Updates</h3>
+              <p>
+                <strong>What:</strong> Monitor app performance, fix bugs, and release updates with
+                new features.
+              </p>
+              <p>
+                <strong>Activities:</strong>
+              </p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+                <li>Monitor app performance and crashes</li>
+                <li>Fix bugs and issues</li>
+                <li>Release periodic updates</li>
+                <li>Add new features based on user feedback</li>
+                <li>Ensure security and OS compatibility</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">
+                <strong>Duration:</strong> Ongoing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         DEVELOPMENT METHODOLOGIES
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Development Methodologies</h2>
+          <p>Different approaches to managing the development process</p>
+        </div>
+
+        <div class="cards-grid-2">
+          <div class="card">
+            <span class="card-icon">🏃</span>
+            <h3>Agile</h3>
+            <p>
+              Iterative approach with regular sprints, continuous feedback, and incremental
+              improvements. Best for teams that need flexibility and rapid prototyping.
+            </p>
+            <ul style="margin-top: var(--spacing-md); margin-left: var(--spacing-lg);">
+              <li>✓ Flexible and adaptive</li>
+              <li>✓ Frequent releases</li>
+              <li>✓ Customer feedback integration</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📋</span>
+            <h3>Waterfall</h3>
+            <p>
+              Linear sequential approach where each phase must be completed before the next begins.
+              Best for projects with clear requirements and minimal changes.
+            </p>
+            <ul style="margin-top: var(--spacing-md); margin-left: var(--spacing-lg);">
+              <li>✓ Structured approach</li>
+              <li>✓ Clear documentation</li>
+              <li>✓ Predictable timeline</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🔄</span>
+            <h3>DevOps</h3>
+            <p>
+              Emphasizes collaboration between development and operations teams. Focuses on
+              continuous integration, deployment, and monitoring.
+            </p>
+            <ul style="margin-top: var(--spacing-md); margin-left: var(--spacing-lg);">
+              <li>✓ Continuous delivery</li>
+              <li>✓ Quick feedback loops</li>
+              <li>✓ Automation</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🔀</span>
+            <h3>Hybrid</h3>
+            <p>
+              Combines elements from multiple methodologies. Uses Agile for development and
+              Waterfall for planning.
+            </p>
+            <ul style="margin-top: var(--spacing-md); margin-left: var(--spacing-lg);">
+              <li>✓ Balanced approach</li>
+              <li>✓ Flexible yet structured</li>
+              <li>✓ Risk reduction</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         KEY CONSIDERATIONS
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Important Considerations Throughout the Lifecycle</h2>
+          <p>Critical factors to keep in mind at every phase</p>
+        </div>
+
+        <div class="cards-grid-3">
+          <div class="card">
+            <span class="card-icon">📱</span>
+            <h3>Device Compatibility</h3>
+            <p>
+              Test across different devices, screen sizes, and OS versions to ensure your app works
+              for all users.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⚡</span>
+            <h3>Performance</h3>
+            <p>
+              Optimize for speed, battery life, and data usage. Apps that are slow or drain battery
+              get negative reviews.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🔒</span>
+            <h3>Security</h3>
+            <p>
+              Protect user data with encryption, secure APIs, and regular security audits. Privacy
+              is paramount.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">👥</span>
+            <h3>User Experience</h3>
+            <p>
+              Design intuitive interfaces, smooth navigation, and delightful interactions. UX is
+              critical for success.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📊</span>
+            <h3>Analytics</h3>
+            <p>
+              Track user behavior, app crashes, and performance metrics to understand how users
+              interact with your app.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">💰</span>
+            <h3>Scalability</h3>
+            <p>
+              Design backend infrastructure to handle growth. Plan for future scale from the
+              beginning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>About</h4>
+            <p>
+              Mobile App Development Learning Hub is an educational resource for students
+              learning about mobile app development fundamentals.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="platforms.html">Platforms</a></li>
+              <li><a href="app-types.html">App Types</a></li>
+              <li><a href="tools.html">Tools</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="lifecycle.html">Development Lifecycle</a></li>
+              <li><a href="ui-components.html">UI Components</a></li>
+              <li><a href="deployment.html">Deployment Guide</a></li>
+              <li><a href="about.html">About This Project</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: info@madlearninghub.edu</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Location: Education & Technology Hub</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Mobile App Development Learning Hub. All rights reserved. | Designed for
+            Educational Purposes
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+         SCRIPTS
+         ========================================== -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>

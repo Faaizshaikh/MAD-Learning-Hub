@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile UI Components - Learning Hub</title>
+    <meta
+      name="description"
+      content="Learn about essential mobile UI components like buttons, text fields, navigation bars, and lists."
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- ==========================================
+         NAVIGATION BAR
+         ========================================== -->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-brand">
+            <span>📱</span>
+            <span>MAD Learning Hub</span>
+          </div>
+          <button class="menu-toggle">☰</button>
+          <ul class="navbar-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="platforms.html">Platforms</a></li>
+            <li><a href="app-types.html">App Types</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="lifecycle.html">Lifecycle</a></li>
+            <li><a href="ui-components.html" class="active">UI Components</a></li>
+            <li><a href="deployment.html">Deployment</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Mobile UI Components</h1>
+          <p class="hero-subtitle">
+            Essential user interface elements used in mobile applications
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         BUTTONS
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Buttons</h2>
+          <p>Interactive elements that trigger actions</p>
+        </div>
+
+        <div class="content-row">
+          <div>
+            <h3>What are Buttons?</h3>
+            <p>
+              Buttons are interactive UI components that allow users to perform actions. They are
+              one of the most commonly used elements in mobile apps and come in various styles and
+              states.
+            </p>
+            <h3 style="margin-top: var(--spacing-lg);">Button Types</h3>
+            <ul style="margin-left: var(--spacing-lg); color: var(--text-light);">
+              <li><strong>Primary Button:</strong> Main action of the screen</li>
+              <li><strong>Secondary Button:</strong> Alternative actions</li>
+              <li><strong>Tertiary Button:</strong> Less important actions</li>
+              <li><strong>Icon Button:</strong> Button with only icon</li>
+              <li><strong>Floating Action Button (FAB):</strong> Circular button for primary action</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Button States</h3>
+            <p>Buttons should have clear visual feedback for different states:</p>
+            <div class="component-example">
+              <div style="display: flex; gap: var(--spacing-lg); flex-wrap: wrap;">
+                <button class="btn btn-primary">Normal</button>
+                <button class="btn btn-primary" disabled style="opacity: 0.5;">Disabled</button>
+                <button class="btn btn-secondary">Secondary</button>
+              </div>
+            </div>
+            <p style="margin-top: var(--spacing-lg);">
+              <strong>Best Practices:</strong>
+            </p>
+            <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+              <li>Use clear, action-oriented text</li>
+              <li>Make buttons easily tappable (min 44x44 pts)</li>
+              <li>Provide visual feedback on interaction</li>
+              <li>Use contrasting colors</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TEXT FIELDS
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Text Fields & Input</h2>
+          <p>Components for user text input</p>
+        </div>
+
+        <div class="content-row reverse">
+          <div>
+            <h3>What are Text Fields?</h3>
+            <p>
+              Text fields allow users to enter and edit text. They are essential for forms,
+              searches, and any input that requires text data.
+            </p>
+            <h3 style="margin-top: var(--spacing-lg);">Input Types</h3>
+            <ul style="margin-left: var(--spacing-lg); color: var(--text-light);">
+              <li><strong>Single-line Text:</strong> For names, emails, simple input</li>
+              <li><strong>Multi-line Text:</strong> For descriptions, comments</li>
+              <li><strong>Number Field:</strong> For numeric input only</li>
+              <li><strong>Email Field:</strong> Specialized for email addresses</li>
+              <li><strong>Password Field:</strong> For secure password entry</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Input Field Example</h3>
+            <div class="component-example">
+              <input
+                type="text"
+                class="input-demo"
+                placeholder="Enter your name here..."
+              />
+            </div>
+            <p style="margin-top: var(--spacing-lg);">
+              <strong>Best Practices:</strong>
+            </p>
+            <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+              <li>Use clear placeholder text</li>
+              <li>Show input hints and labels</li>
+              <li>Provide error messages</li>
+              <li>Validate input in real-time</li>
+              <li>Use appropriate keyboards (email, number)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         NAVIGATION BAR
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Navigation Bar</h2>
+          <p>Components for app navigation</p>
+        </div>
+
+        <div class="content-row">
+          <div>
+            <h3>What is Navigation Bar?</h3>
+            <p>
+              The navigation bar (or bottom navigation) is a component at the bottom or top of the
+              screen that allows users to switch between different sections of the app.
+            </p>
+            <h3 style="margin-top: var(--spacing-lg);">Navigation Types</h3>
+            <ul style="margin-left: var(--spacing-lg); color: var(--text-light);">
+              <li><strong>Bottom Navigation:</strong> 3-5 tabs at bottom</li>
+              <li><strong>Top App Bar:</strong> Navigation at top</li>
+              <li><strong>Drawer:</strong> Side menu for navigation</li>
+              <li><strong>Breadcrumb:</strong> Shows user's location</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Navigation Bar Example</h3>
+            <div class="component-example">
+              <div class="nav-bar-demo">
+                <span>🏠 Home</span>
+                <span>🔍 Search</span>
+                <span>❤️ Favorites</span>
+                <span>👤 Profile</span>
+              </div>
+            </div>
+            <p style="margin-top: var(--spacing-lg);">
+              <strong>Best Practices:</strong>
+            </p>
+            <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+              <li>Keep navigation simple (3-5 items)</li>
+              <li>Use recognizable icons</li>
+              <li>Show active state clearly</li>
+              <li>Make touch targets large enough</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         LISTS
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Lists</h2>
+          <p>Components for displaying collections of items</p>
+        </div>
+
+        <div class="content-row reverse">
+          <div>
+            <h3>What are Lists?</h3>
+            <p>
+              Lists display collections of items vertically. They're fundamental components for
+              showing data like messages, contacts, or products.
+            </p>
+            <h3 style="margin-top: var(--spacing-lg);">List Types</h3>
+            <ul style="margin-left: var(--spacing-lg); color: var(--text-light);">
+              <li><strong>Single-line List:</strong> One line per item</li>
+              <li><strong>Two-line List:</strong> Title and subtitle</li>
+              <li><strong>Multi-line List:</strong> Rich content per item</li>
+              <li><strong>Grid List:</strong> Items in grid layout</li>
+            </ul>
+          </div>
+          <div>
+            <h3>List Example</h3>
+            <div class="component-example">
+              <ul class="list-demo">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+                <li>Item Four</li>
+              </ul>
+            </div>
+            <p style="margin-top: var(--spacing-lg);">
+              <strong>Best Practices:</strong>
+            </p>
+            <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+              <li>Use consistent item heights</li>
+              <li>Show clear visual hierarchy</li>
+              <li>Make items tappable easily</li>
+              <li>Support scrolling for long lists</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         OTHER COMPONENTS
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Other Essential Components</h2>
+          <p>Additional UI components commonly used in mobile apps</p>
+        </div>
+
+        <div class="cards-grid-3">
+          <div class="card">
+            <span class="card-icon">✅</span>
+            <h3>Checkboxes</h3>
+            <p>
+              Allow users to select multiple options from a list. Users can check or uncheck each
+              item independently.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⭕</span>
+            <h3>Radio Buttons</h3>
+            <p>
+              Allow users to select only one option from a group. When one is selected, others are
+              deselected.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🔘</span>
+            <h3>Toggle Switches</h3>
+            <p>
+              Allow users to turn features on or off. Common for settings and preferences with
+              binary choices.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📅</span>
+            <h3>Date & Time Pickers</h3>
+            <p>
+              Allow users to select dates and times. Essential for booking apps, reminders, and
+              scheduling features.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">📋</span>
+            <h3>Dropdown Menus</h3>
+            <p>
+              Display a list of options when tapped. Useful for filtering, sorting, and selecting
+              from multiple choices.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⚡</span>
+            <h3>Progress Indicators</h3>
+            <p>
+              Show progress of ongoing operations like file uploads, downloads, or loading data.
+              Provides feedback to users.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🎨</span>
+            <h3>Color Pickers</h3>
+            <p>
+              Allow users to select colors. Common in design apps, theme customization, and
+              personalization features.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🔔</span>
+            <h3>Notifications</h3>
+            <p>
+              Alert users about important information or updates. Can be banners, toasts, or
+              dialogs.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🖼️</span>
+            <h3>Image & Media</h3>
+            <p>
+              Display images, videos, and other media. Essential for photo apps, galleries, and
+              content-heavy applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         DESIGN GUIDELINES
+         ========================================== -->
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>General UI Design Guidelines</h2>
+          <p>Best practices for designing mobile UI</p>
+        </div>
+
+        <div class="cards-grid-2">
+          <div class="card">
+            <span class="card-icon">📐</span>
+            <h3>Consistency</h3>
+            <p>
+              Keep UI elements consistent throughout the app. Users should recognize patterns and
+              predict behavior.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">👆</span>
+            <h3>Touch-Friendly</h3>
+            <p>
+              Make interactive elements at least 44x44 points in size. Account for thick fingers
+              and accidental touches.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🎯</span>
+            <h3>Simplicity</h3>
+            <p>
+              Keep interfaces simple and uncluttered. Remove unnecessary elements and focus on the
+              primary task.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">⚡</span>
+            <h3>Performance</h3>
+            <p>
+              Ensure fast load times and smooth animations. Slow apps frustrate users and get poor
+              reviews.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">🎨</span>
+            <h3>Visual Hierarchy</h3>
+            <p>
+              Use size, color, and spacing to guide users' attention. Most important elements should
+              stand out.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="card-icon">♿</span>
+            <h3>Accessibility</h3>
+            <p>
+              Design for all users including those with disabilities. Provide alt text, good contrast,
+              and keyboard support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>About</h4>
+            <p>
+              Mobile App Development Learning Hub is an educational resource for students
+              learning about mobile app development fundamentals.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="platforms.html">Platforms</a></li>
+              <li><a href="app-types.html">App Types</a></li>
+              <li><a href="tools.html">Tools</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="lifecycle.html">Development Lifecycle</a></li>
+              <li><a href="ui-components.html">UI Components</a></li>
+              <li><a href="deployment.html">Deployment Guide</a></li>
+              <li><a href="about.html">About This Project</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: info@madlearninghub.edu</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Location: Education & Technology Hub</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Mobile App Development Learning Hub. All rights reserved. | Designed for
+            Educational Purposes
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+         SCRIPTS
+         ========================================== -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
